@@ -73,6 +73,7 @@ nav div{
 
 img{
   width:60%;
+  outline: 3px solid black;
 }
 
 .project-name{
@@ -92,6 +93,7 @@ button{
   border: 2px solid var(--pink);
   margin:5px;
   transition: .2s ease-in-out;
+  margin-top: 20px;
 }
 
 button:hover{
