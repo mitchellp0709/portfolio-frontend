@@ -10,7 +10,7 @@ function Home(props) {
       </h3>
       <h4 className="about">About the site:</h4>
       <p className="about">
-        I created this site to showcase my frontend and backend abilities. blah blah blah... fill in later. maybe combine with the stuff above?
+        I created a portfolio to showcase my frontend and backend abilities. This site itself was created using React states & routes for the front end pages. I created my own backend for all additional information, which I deployed to Heroku and all data is fetched there using API calls. 
       </p>
     </>
   );

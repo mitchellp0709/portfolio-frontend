@@ -23,6 +23,7 @@ function Projects(props) {
       <div>
         <h1 className="project-name">{project.name}</h1>
         <img src={project.image} />
+        <p>About: <br/><br/>{project.about}</p>
         <br/>
         <a href={project.git}>
           <button>Github</button>
