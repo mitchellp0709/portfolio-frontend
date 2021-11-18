@@ -1,61 +1,137 @@
-:root{
-  --teal: rgb(74,238,228);
-  --darkteal: rgb(85,189,201);
-  --blue: rgb(150,202,239);
-  --light: rgb(202,250,254);
-  --red:rgb(246,68,69);
-  --pink: rgb(235,97,237);
+:root {
+  --teal: rgb(74, 238, 228);
+  --darkteal: rgb(85, 189, 201);
+  --blue: rgb(150, 202, 239);
+  --light: rgb(202, 250, 254);
+  --red: rgb(246, 68, 69);
+  --pink: rgb(235, 97, 237);
 }
 
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-body{
+
+body {
   background-color: var(--teal);
 }
 
+.content{
+  height: 75%;
+  width: fit-content;
+  text-align: center;
+}
 
 /* NAV DECORATION */
 
-nav{
-    display: flex;
-     justify-content: space-around;
-    border: 3px solid var(--red);
-    padding: 8px;
-    width: 90%;
-    margin: auto;
-   
-  }
-nav div{
-  color:var(--red);
+nav {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid var(--red);
+  padding: 8px;
+  width: 90%;
+  margin: auto;
+}
+nav div {
+  color: var(--red);
   font-weight: bolder;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-
 /* HOME DECORATION */
 
-
-
-
-.hook{
-  color:white
+.hook {
+  color: white;
 }
 
-.about{
-  color:white;
+.about {
+  color: white;
 }
 
 
+
+
+/* PROJECTS DECORATION */
+
+img {
+  width: 60%;
+  outline: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-name {
+  color: var(--light);
+  text-shadow: 0 0 2px var(--pink), 0 0 2px var(--pink), 0 0 2px var(--pink),
+    0 0 2px var(--pink);
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+button {
+  color: var(--red);
+  background-color: var(--darkteal);
+  text-decoration: bolder;
+  font-size: 1.1em;
+  border: 2px solid var(--pink);
+  margin: 5px;
+  transition: 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: var(--red);
+  border: 2px solid var(--light);
+}
+
+/* ABOUT DECORATION */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-name {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.about-email {
+  font-size: 1.25em;
+}
+
+.about-bio {
+  width: 80%;
+  font-size: 1.15em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.about h4 {
+  font-size: 1.5em;
+}
 
 /* FOOTER DECORATION */
 
-
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,85 +140,8 @@ a{
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 12.15%;
   margin-top: 50px;
 }
-/* NEED TO FIGURE OUT HOW TO GET THE FOOTER TO STAY AT THE BOTTOM */
 
-
-
-/* PROJECTS DECORATION */
-
-img{
-  width:60%;
-  outline: 3px solid black;
-  margin-left:auto;
-  margin-right: auto;
-}
-
-.project-name{
-  color:var(--light);
-  text-shadow: 0 0 2px var(--pink), 0 0 2px var(--pink), 0 0 2px var(--pink), 0 0 2px var(--pink);
-  font-weight: bold;
-  margin-top: 60px;
-  margin-bottom:30px;
-}
-
-button{
-  
-  color: var(--red);
-  background-color: var(--darkteal);
-  text-decoration: bolder;
-  font-size: 1.1em;
-  border: 2px solid var(--pink);
-  margin:5px;
-  transition: .2s ease-in-out;
-  margin-top: 20px;
-}
-
-button:hover{
-  cursor: pointer;
-  color:black;
-  background-color: var(--red);
-  border: 2px solid var(--light);
-}
-
-
-/* ABOUT DECORATION */
-
-.about{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-
-.about-name{
-  font-weight: bold;
-  font-size: 2em;
-}
-
-.about-email{
-font-size: 1.25em;
-}
-
-.about-bio{
-  width: 80%;
-  font-size:1.15em;
-  margin-left: auto;
-  margin-right:auto;
-  color: white;
-  font-weight: bold;
-}
-
-p{
-  width: 80%;
-  margin-left:auto;
-  margin-right: auto;
-  font-weight: bold;
-}
-
-.about h4{
-  font-size: 1.5em;
-}
 
