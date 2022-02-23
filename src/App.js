@@ -20,18 +20,25 @@ function App() {
 
 
   return (
-    <>
-      <div className="App">
-        <Header />
+    <h1>
+      Site under Maintenance. In the meantime, please check out my{" "}
+      <a href="https://www.linkedin.com/in/mitchell-paoletti-067325168/">
+        LinkedIn
+      </a>{" "}
+      and <a href="https://github.com/mitchellp0709">Github</a>!
+    </h1>
+    // <>
+    //   <div className="App">
+    //     <Header />
 
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/projects" element={<Projects URL={URL} />} />
-          <Route exact path="/about" element={<About URL={URL} />} />
-        </Routes>
-        <Footer />
-      </div>
-    </>
+    //     <Routes>
+    //       <Route exact path="/" element={<Home />} />
+    //       <Route exact path="/projects" element={<Projects URL={URL} />} />
+    //       <Route exact path="/about" element={<About URL={URL} />} />
+    //     </Routes>
+    //     <Footer />
+    //   </div>
+    // </>
   );
 }
 
