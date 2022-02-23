@@ -21,7 +21,7 @@ function App() {
 
   return (
     <h1>
-      Site under Maintenance. In the meantime, please check out my{" "}
+      Site under maintenance. In the meantime, please check out my{" "}
       <a href="https://www.linkedin.com/in/mitchell-paoletti-067325168/">
         LinkedIn
       </a>{" "}
